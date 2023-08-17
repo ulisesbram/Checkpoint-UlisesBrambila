@@ -1,0 +1,20 @@
+  185  git clone https://github.com/ulisesbram/Checkpoint-UlisesBrambila.git
+  186  cd Checkpoint-UlisesBrambila/
+  187  touch main.js index.html
+  188  git add .
+  189  git commit -m "commit 01 de UlisesBrambila"
+  190  git push origin main
+  191  git branch feature
+  192  git checkout feature
+  193  mkdir Hardware Software SeguridadInformatica
+  194  touch Hardware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+  195  git add .
+  196  git commit -m "commit 02 de UlisesBrambila"
+  197  git push origin feature
+  198  git checkout main
+  199  mv main.js resumenHardware.txt
+  200  mv index.html resumenSoftware.txt
+  201  touch comandos.txt
+  202  history
+  203  history 20> comandos.txt
+  204  history 20 > comandos.txt
